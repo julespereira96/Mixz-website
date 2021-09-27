@@ -1,0 +1,132 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url(./wade-austin-ellis-yN7prWLW7xg-unsplash\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center center;
+}
+
+h1 {
+  font-family: "Six Caps", sans-serif;
+  font-size: 11rem;
+  line-height: 10rem;
+}
+
+h5 {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.rating {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  } /*1rem = 16px*/
+}
+@media (max-width: 380px) {
+  h1 {
+    line-height: 3rem;
+  } /*1rem = 16px*/
+}
+
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.cocktail {
+  margin-top: 6rem;
+}
+
+.btn-outline-dark {
+  letter-spacing: 7px;
+  font-size: 24px;
+  font-weight: 800;
+  width: 124px;
+  height: 42px;
+}
+
+.nav-button {
+  border: 3px solid black;
+  border-radius: 0;
+  padding: 0.2rem 1rem;
+}
+
+.book-button {
+  border-radius: 0;
+  padding: 0.5rem 1.5rem;
+  color: #db903d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.watch-promo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+body {
+  background-color: transparent;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  position: relative;
+  z-index: 1;
+}
+
+hr {
+  background-color: black;
+  width: 50%;
+  height: 30px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 3rem;
+}
+
+h5 {
+  margin-top: 0.1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .review {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+  .arrow {
+    margin-left: 0rem;
+  }
+}
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
